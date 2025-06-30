@@ -25,7 +25,7 @@ DevTools の Console に結果を表示するブラウザ拡張機能です。
 
 ### 1. インストール
 
-1. [https://github.com/r3-yamauchi/kintone-js-api-tester/releases](https://github.com/r3-yamauchi/kintone-js-api-tester/releases) から [kintone-js-api-tester-1.0.0-chrome.zip](https://github.com/r3-yamauchi/kintone-js-api-tester/releases/download/1.0.0/kintone-js-api-tester-1.0.0-chrome.zip) をダウンロード
+1. [https://github.com/r3-yamauchi/kintone-js-api-tester/releases](https://github.com/r3-yamauchi/kintone-js-api-tester/releases) から [kintone-js-api-tester-1.0.1-chrome.zip](https://github.com/r3-yamauchi/kintone-js-api-tester/releases/download/1.0.1/kintone-js-api-tester-1.0.1-chrome.zip) をダウンロード
 2. ダウンロードしたzipファイルを展開
 3. Chrome拡張機能管理画面（`chrome://extensions/`）で「デベロッパーモード」を有効化
 4. 「パッケージ化されていない拡張機能を読み込む」で zipファイルを展開したフォルダを選択
@@ -88,7 +88,7 @@ DevTools の Console に結果を表示するブラウザ拡張機能です。
 
 - **フレームワーク**: [WXT](https://wxt.dev/) - Web Extension Toolkit
 - **言語**: TypeScript
-- **ビルドツール**: Vite 6.3.5
+- **ビルドツール**: Vite（WXTに統合）
 - **対象ブラウザ**: Chrome (Manifest V3), Firefox
 - **パッケージサイズ**: ~46KB
 
