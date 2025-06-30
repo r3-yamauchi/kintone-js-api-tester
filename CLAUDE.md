@@ -46,7 +46,7 @@
 詳細なデバッグログが必要な場合は、以下の手順でデバッグモードを有効にしてください：
 
 1. `config/debug.ts` の `DEBUG_MODE` を `true` に変更
-2. `public/kintone-bridge.js` の `DEBUG_MODE` を `true` に変更  
+2. `public/kintone-bridge.js` の `DEBUG_MODE` を `true` に変更
 3. 拡張機能をリビルド（`npm run build` または `npm run dev`）
 
 デバッグモードでは以下のログが追加で出力されます：
@@ -313,9 +313,3 @@ npm run zip:firefox  # Firefox版ZIP
 - `showExecutionSummary` - 実行結果サマリー
 
 デバッグモードでは、これらのメソッドに`[内部メソッド]`のプレフィックスが付いて表示されます。
-
----
-
-**最終更新**: 2025年6月27日  
-**バージョン**: v1.0.0  
-**主要機能**: アプリID自動取得、堅牢なエラーハンドリング、インテリジェントUI、内部メソッドログ制御、TypeScript完全対応
